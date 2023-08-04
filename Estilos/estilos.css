@@ -2,6 +2,12 @@ body{
     margin:0;
 }
 
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+
 header{
     background: #A52525;
     width: 100%;
@@ -30,12 +36,19 @@ Nav
   float: right
 }
 
+h1{
+    position:relative;
+    left:500px;
+    bottom:400px;
+    color: #ffff
+}
+
 .imagen-principal{
     width: 1520px;
     height: 340px;
 }
 
-.fuego{
+.asado{
     width: 1520px;
     height: 340px;
 }
@@ -123,11 +136,15 @@ Nav
 
 .img-thumbnail{
     border-radius: 50%;
+    position:relative;
+    top:20px;
 }
 
 .redes{
     width: 80px;
     height: 80px;
+    position: relative;
+    left:570px;
 }
 
 .contenedorCarnes{
@@ -203,3 +220,24 @@ Nav
     bottom: 340px;
     left: 330px;
 }
+
+.contactosMain{
+    background-image: url("../Activos/Imagenes/fuego.jpg");
+}
+
+.carnesMain{
+    background-color: rgb(26, 23, 23);
+}
+
+.spC{
+    font-size: 20px;
+    position:relative;
+    left:500px;
+    bottom:400px;
+    color: #ffff;
+}
+
+
+
+
+
