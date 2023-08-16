@@ -170,7 +170,7 @@ Nav
     left:10px;
 }
 
-.Meat{
+.meat{
     font-size: 44px;
     font-family: sans-serif;
 }
@@ -198,20 +198,20 @@ Nav
     justify-content: center;
     align-items: center;
     width: 1520px;
-    height: 500px;
+    height: 900px;
     margin-top: 50px;
 }
 
 .divc1{
     background-color:#A52525;
     width: 650px;
-    height: 400px;
+    height: 700px;
 }
 
 .divc2{
     background-color:#A52525;
     width: 650px;
-    height: 400px;
+    height: 700px;
 }
 
 .carnepollo{
@@ -241,6 +241,18 @@ Nav
     left: 330px;
 }
 
+.dp{
+    font-size: 25px;
+    text-decoration: underline;
+    position: relative;
+    bottom:315px;
+}
+
+.descPollo{
+    position: relative;
+    bottom: 315px;
+}
+
 .carnecerdo{
     width:325px;
     height:400px;
@@ -266,6 +278,20 @@ Nav
     bottom: 340px;
     left: 330px;
 }
+
+.dc{
+    font-size: 25px;
+    text-decoration: underline;
+    position: relative;
+    bottom:340px;
+}
+
+.descCerdo{
+    position: relative;
+    bottom:340px;
+}
+
+
 
 .contactosMain{
     background-image: url("../Activos/Imagenes/fuego.jpg");
