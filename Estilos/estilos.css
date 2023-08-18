@@ -38,6 +38,15 @@ Nav
 }
 
 
+.bienvenidos{
+    color:#ffff;
+}
+
+.lead{
+    font-size: 20px;
+    color: #ffff;
+}
+
 .nav-link{
     color:#ffff;
 }
@@ -45,8 +54,7 @@ Nav
 
 .hCon{
     position:relative;
-    left:500px;
-    bottom:400px;
+    left:625px;
     color: #ffff
 }
 
@@ -57,11 +65,13 @@ Nav
 .carneNo{
     width: 800px;
     height: 400px; 
+    float: right;
 }
 
 .carnePagina{
     width: 800px;
     height: 400px; 
+    float: right;
 }
 
 .Info{
@@ -183,7 +193,7 @@ Nav
 .img-thumbnail{
     border-radius: 50%;
     position:relative;
-    top:20px;
+    left:500px;
 }
 
 .redes{
@@ -304,8 +314,7 @@ Nav
 .spC{
     font-size: 20px;
     position:relative;
-    left:500px;
-    bottom:400px;
+    left:625px;
     color: #ffff;
 }
 
