@@ -38,6 +38,14 @@ Nav
 }
 
 
+.textoH{
+    padding-left: 20px;
+}
+
+.textoCa{
+    padding-left: 20px;
+}
+
 .catalogo{
     color:#ffff;
 }
@@ -64,6 +72,7 @@ Nav
 
 .hNo{
     text-decoration: underline;
+    padding-left: 20px;
 }
 
 .carneNo{
@@ -92,14 +101,17 @@ Nav
 
 .pNo{
     font-size: 25px;
+    padding-left: 20px;
 }
 
 .hPa{
     text-decoration: underline;
+    padding-left: 20px;
 }
 
 .pPa{
     font-size: 25px;
+    padding-left: 20px;
 }
 
 
@@ -144,6 +156,7 @@ Nav
     width: 500px;
     height: 400px;
     font-size: 25px;
+    padding-left: 20px;
     background-color: #D9D9D9;
 }
 
@@ -154,6 +167,7 @@ Nav
     width: 500px;
     height: 400px;
     font-size: 25px;
+    padding-left: 20px;
     background-color: #D9D9D9;
 }
 
@@ -162,6 +176,7 @@ Nav
     width: 500px;
     height: 400px;
     font-size: 25px;
+    padding-left: 20px;
     background-color: #D9D9D9;
 }
 
@@ -246,7 +261,6 @@ Nav
     position: relative;
     bottom: 340px;
     left: 330px;
-    
 }
 
 .listapollo{
@@ -260,11 +274,13 @@ Nav
     text-decoration: underline;
     position: relative;
     bottom:315px;
+    padding-left: 20px;
 }
 
 .descPollo{
     position: relative;
     bottom: 315px;
+    padding-left: 20px;
 }
 
 .carnecerdo{
@@ -298,11 +314,13 @@ Nav
     text-decoration: underline;
     position: relative;
     bottom:340px;
+    padding-left: 20px;
 }
 
 .descCerdo{
     position: relative;
     bottom:340px;
+    padding-left: 20px;
 }
 
 
