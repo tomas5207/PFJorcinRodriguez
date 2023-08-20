@@ -38,8 +38,12 @@ Nav
 }
 
 
-.bienvenidos{
+.catalogo{
     color:#ffff;
+}
+
+.principal{
+    font-size: 20px;
 }
 
 .lead{
@@ -137,9 +141,9 @@ Nav
 
 .div1Home{
     align-items: flex-start;
-    width: 650px;
-    height: 450px;
-    font-size: 35px;
+    width: 500px;
+    height: 400px;
+    font-size: 25px;
     background-color: #D9D9D9;
 }
 
@@ -147,23 +151,23 @@ Nav
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
-    width: 650px;
-    height: 450px;
-    font-size: 35px;
+    width: 500px;
+    height: 400px;
+    font-size: 25px;
     background-color: #D9D9D9;
 }
 
 .div3Home{
     align-items: flex-end;
-    width: 650px;
-    height: 450px;
-    font-size: 35px;
+    width: 500px;
+    height: 400px;
+    font-size: 25px;
     background-color: #D9D9D9;
 }
 
 .reloj{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 .search{
