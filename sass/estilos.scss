@@ -1,0 +1,368 @@
+$Color-principal: #A52525;
+$Color-secundario: #ffff;
+$Color-noticia: #D9D9D9;
+$Promedio-pixeles: 20px;
+$Promedio-pixeles2: 25px;
+
+@mixin imagen-parrafo{
+    width: 800px;
+    height: 400px; 
+    float: right;
+}
+
+@mixin imagen-cabecera{
+    width: 1520px;
+    height: 340px;
+}
+
+@mixin divs-carne{
+    background-color: $Color-principal;
+    width: 650px;
+    height: 700px;
+}
+
+body{
+    margin: 0;
+}
+
+html{
+    body{
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
+
+
+header{
+    background: $Color-principal;
+    width: 100%;
+    clear: both;
+    display: table;
+    color: $Color-secundario;
+}
+
+a{
+    padding-right: 10px;
+    font-size: $Promedio-pixeles2;
+    text-decoration: none;
+    color:$Color-secundario;
+}
+
+
+footer{
+    background: $Color-principal;
+}
+
+li{
+    font-size: $Promedio-pixeles;
+}
+
+Nav
+{
+    float: right
+}
+
+
+.textoH{
+    padding-left: $Promedio-pixeles;
+}
+
+.textoCa{
+    padding-left: $Promedio-pixeles;
+}
+
+.catalogo{
+    color: $Color-secundario;
+}
+
+.principal{
+    font-size: $Promedio-pixeles;
+}
+
+.lead{
+    font-size: $Promedio-pixeles;
+    color: $Color-secundario;
+}
+
+.nav-link{
+    color: $Color-secundario;
+}
+
+
+.hCon{
+    position:relative;
+    left:625px;
+    color: $Color-secundario;
+}
+
+.hNo{
+    text-decoration: underline;
+    padding-left: $Promedio-pixeles;
+}
+
+.carneNo{
+    @include imagen-parrafo;
+}
+
+.carnePagina{
+    @include imagen-parrafo;
+}
+
+.Info{
+    width:1540px;
+    height:50px;
+    background-color: #a5a5a5;
+}
+
+.spNo{
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+}
+
+.pNo{
+    font-size: $Promedio-pixeles2;
+    padding-left: $Promedio-pixeles;
+}
+
+.hPa{
+    text-decoration: underline;
+    padding-left: $Promedio-pixeles;
+}
+
+.pPa{
+    font-size: $Promedio-pixeles2;
+    padding-left: $Promedio-pixeles;
+}
+
+
+.imagen-principal{
+    @include imagen-cabecera;
+}
+
+.asado{
+    @include imagen-cabecera;
+}
+
+
+
+.contenedorHome{
+    display:flex;
+    width: 1500px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.div1Home{
+    align-items: flex-start;
+    width: 500px;
+    height: 400px;
+    font-size: $Promedio-pixeles2;
+    padding-left: $Promedio-pixeles;
+    background-color: $Color-noticia;
+}
+
+.div2Home{
+    align-items: center;
+    margin-left: $Promedio-pixeles;
+    margin-right: $Promedio-pixeles;
+    width: 500px;
+    height: 400px;
+    font-size: $Promedio-pixeles2;
+    padding-left: $Promedio-pixeles;
+    background-color: $Color-noticia;
+}
+
+.div3Home{
+    align-items: flex-end;
+    width: 500px;
+    height: 400px;
+    font-size: $Promedio-pixeles2;
+    padding-left: $Promedio-pixeles;
+    background-color: $Color-noticia;
+}
+
+.reloj{
+    width: $Promedio-pixeles;
+    height: $Promedio-pixeles;
+}
+
+
+.usuario{
+    width: 50px;
+    height: 50px;
+    left:10px;
+}
+
+.meat{
+    font-size: 44px;
+    font-family: sans-serif;
+}
+
+.es{
+    font-size: $Promedio-pixeles2;
+    font-family:monospace;  
+}
+
+.img-thumbnail{
+    border-radius: 50%;
+    position:relative;
+    left:500px;
+}
+
+.redes{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left:570px;
+}
+
+.contenedorCarnes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 1520px;
+    height: 900px;
+    margin-top: 50px;
+}
+
+.divc1{
+    @include divs-carne;
+}
+
+.divc2{
+    @include divs-carne;
+}
+
+.carnepollo{
+    width:325px;
+    height:400px;
+}
+
+.cp{
+    font-size: 30px;
+    position: relative;
+    bottom:160px;
+    text-decoration: underline;
+}
+
+.ccp{
+    font-size: $Promedio-pixeles2;
+    text-decoration: underline;
+    position: relative;
+    bottom: 340px;
+    left: 330px;
+}
+
+.listapollo{
+    position: relative;
+    bottom: 340px;
+    left: 330px;
+}
+
+.dp{
+    font-size: $Promedio-pixeles2;
+    text-decoration: underline;
+    position: relative;
+    bottom:315px;
+    padding-left: $Promedio-pixeles;
+}
+
+.descPollo{
+    position: relative;
+    bottom: 315px;
+    padding-left: $Promedio-pixeles;
+}
+
+.carnecerdo{
+    width:325px;
+    height:400px;
+}
+
+.cc{
+    font-size: 30px;
+    position: relative;
+    bottom:160px;
+    text-decoration: underline;
+}
+
+.ccc{
+    font-size: $Promedio-pixeles2;
+    text-decoration: underline;
+    position: relative;
+    bottom: 340px;
+    left: 330px;
+}
+
+.listacerdo{
+    position: relative;
+    bottom: 340px;
+    left: 330px;
+}
+
+.dc{
+    font-size: $Promedio-pixeles2;
+    text-decoration: underline;
+    position: relative;
+    bottom:340px;
+    padding-left: $Promedio-pixeles;
+}
+
+.descCerdo{
+    position: relative;
+    bottom:340px;
+    padding-left: $Promedio-pixeles;
+}
+
+
+
+.contactosMain{
+    background-image: url("../Activos/Imagenes/fuego.jpg");
+}
+
+.carnesMain{
+    background-color: rgb(26, 23, 23);
+}
+
+.spC{
+    font-size: $Promedio-pixeles;
+    position:relative;
+    left:625px;
+    color: $Color-secundario;
+}
+
+@media screen and (max-width: 570px){
+    .redes{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        left: 100px;
+    }
+
+    .spNo{
+        font-size: 12px;
+        color: #000000;
+        position: relative;
+        left:0px;
+    }
+
+    
+    .hCon{
+        position:relative;
+        left:0px;
+        bottom:0px;
+        top: 10px;
+        color: $Color-secundario;
+    }
+
+    .spC{
+        font-size: $Promedio-pixeles;
+        position:relative;
+        left:0px;
+        bottom:0px;
+        top: 5px;
+        color: $Color-secundario;
+    }
+    
+}
+
