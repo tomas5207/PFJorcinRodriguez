@@ -128,7 +128,10 @@ Nav
     font-family: $Fuente2;
     font-weight: bold;
     position:relative;
+    text-decoration: underline;
+    font-size: 60px;
     left:660px;
+    bottom: 400px;
     color: $Color-secundario;
 }
 
@@ -245,6 +248,8 @@ Nav
 .meat{
     font-size: 44px;
     font-family: sans-serif;
+    position: relative;
+    right: 700px;
 }
 
 .es{
@@ -254,8 +259,6 @@ Nav
 
 .img-thumbnail{
     border-radius: 50%;
-    position:relative;
-    left:500px;
 }
 
 .redes{
@@ -383,7 +386,7 @@ Nav
 
 
 .contactosMain{
-    background-image: url("../Activos/Imagenes/fuego.jpg");
+    background-color: rgb(26, 23, 23);
 }
 
 .carnesMain{
@@ -392,11 +395,30 @@ Nav
 
 .spC{
     font-family: $Fuente2;
-    font-size: $Promedio-pixeles;
+    font-size: 40px;
     position:relative;
+    bottom: 380px;
     left:660px;
     color: $Color-secundario;
 }
+
+.spC2{
+    font-family: $Fuente2;
+    font-size: 40px;
+    position:relative;
+    bottom: 380px;
+    left:690px;
+    color: $Color-secundario;
+}
+
+.imc{
+    width: 80px;
+    height: 80px;
+    position:relative;
+    bottom: 400px;
+    left: 660px;
+} 
+
 }
 
 
