@@ -167,6 +167,9 @@
     left: 10px;
   }
   .meat {
+    position:relative;
+    right: 700px;
+    bottom: 10px;
     font-size: 44px;
     font-family: sans-serif;
   }
@@ -290,7 +293,7 @@
     padding-left: 20px;
   }
   .contactosMain {
-    background-image: url("../Activos/Imagenes/fuego.jpg");
+    background-color:rgb(26, 23, 23);
   }
   .carnesMain {
     background-color: rgb(26, 23, 23);
