@@ -127,11 +127,9 @@ Nav
 .hCon{
     font-family: $Fuente2;
     font-weight: bold;
-    position:relative;
     text-decoration: underline;
     font-size: 60px;
-    left:660px;
-    bottom: 400px;
+    margin-left: 10px;
     color: $Color-secundario;
 }
 
@@ -259,6 +257,7 @@ Nav
 
 .img-thumbnail{
     border-radius: 50%;
+    margin-top: 20px;
 }
 
 .redes{
@@ -396,28 +395,31 @@ Nav
 .spC{
     font-family: $Fuente2;
     font-size: 40px;
-    position:relative;
-    bottom: 380px;
-    left:660px;
     color: $Color-secundario;
+    margin-left: 10px;
 }
 
 .spC2{
     font-family: $Fuente2;
     font-size: 40px;
-    position:relative;
-    bottom: 380px;
-    left:690px;
     color: $Color-secundario;
 }
 
 .imc{
     width: 80px;
     height: 80px;
-    position:relative;
-    bottom: 400px;
-    left: 660px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 } 
+
+.divCon{
+    background-color: $Color-principal;
+    width: 900px;
+    height: 700px;
+    position: relative;
+    bottom: 400px;
+    left: 500px;
+}
 
 }
 

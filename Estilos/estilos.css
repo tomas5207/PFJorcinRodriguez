@@ -67,11 +67,9 @@
   .hCon {
     font-family: "Bebas Neue";
     font-weight: bold;
-    position: relative;
     text-decoration: underline;
     font-size: 60px;
-    left: 660px;
-    bottom: 400px;
+    margin-left: 10px;
     color: white;
   }
   .hNo {
@@ -181,6 +179,7 @@
   }
   .img-thumbnail {
     border-radius: 50%;
+    margin-top: 20px;
   }
   .redes {
     width: 80px;
@@ -301,25 +300,27 @@
   .spC {
     font-family: "Bebas Neue";
     font-size: 40px;
-    position: relative;
-    bottom: 380px;
-    left: 660px;
     color: white;
+    margin-left: 10px;
   }
   .spC2 {
     font-family: "Bebas Neue";
     font-size: 40px;
-    position: relative;
-    bottom: 380px;
-    left: 690px;
     color: white;
   }
   .imc {
     width: 80px;
     height: 80px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .divCon {
+    background-color: #A52525;
+    width: 900px;
+    height: 700px;
     position: relative;
     bottom: 400px;
-    left: 660px;
+    left: 500px;
   }
 }
 /*Mobile*/
