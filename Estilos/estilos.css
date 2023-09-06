@@ -182,8 +182,8 @@
     margin-top: 20px;
   }
   .redes {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     position: relative;
     left: 570px;
   }
@@ -321,6 +321,12 @@
     position: relative;
     bottom: 400px;
     left: 500px;
+  }
+  .meat2 {
+    font-size: 35px;
+    position: relative;
+    right: 60px;
+    top: 8px;
   }
 }
 /*Mobile*/
