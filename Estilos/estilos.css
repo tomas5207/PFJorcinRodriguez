@@ -77,6 +77,8 @@
     font-weight: bold;
     text-decoration: underline;
     padding-left: 20px;
+    position: relative;
+    left: 100px;
   }
   .carneNo {
     width: 800px;
@@ -102,18 +104,22 @@
   .pNo {
     font-family: "Carmorant Garamond";
     font-size: 25px;
-    padding-left: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .hPa {
     font-family: "Carmorant Garamond";
     font-weight: bold;
     text-decoration: underline;
     padding-left: 20px;
+    position: relative;
+    left: 100px;
   }
   .pPa {
     font-family: "Carmorant Garamond";
     font-size: 25px;
-    padding-left: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .imagen-principal {
     width: 100%;
@@ -180,12 +186,17 @@
   .img-thumbnail {
     border-radius: 50%;
     margin-top: 20px;
+    margin-left: 10px;
+    width: 500px;
+    height: 500px;
   }
   .redes {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 90px;
     position: relative;
     left: 570px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .contenedorCarnes {
     display: flex;
@@ -316,16 +327,28 @@
   }
   .divCon {
     background-color: #A52525;
-    width: 900px;
-    height: 700px;
+    width: 700px;
+    height: 1300px;
+    margin-left: 10px;
     position: relative;
-    bottom: 400px;
-    left: 500px;
+    top: 20px;
+  }
+  .divCon2 {
+    background-color: #A52525;
+    width: 700px;
+    height: 700px;
+    font-family: "Carmorant Garamond";
+    font-size: 30px;
+    padding-left: 15px;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 800px;
   }
   .meat2 {
     font-size: 35px;
     position: relative;
-    right: 60px;
+    right: 110px;
     top: 8px;
   }
 }

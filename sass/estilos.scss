@@ -138,6 +138,8 @@ Nav
     font-weight: bold;
     text-decoration: underline;
     padding-left: $Promedio-pixeles;
+    position: relative;
+    left: 100px;
 }
 
 .carneNo{
@@ -164,7 +166,8 @@ Nav
 .pNo{
     font-family: $Fuente1;
     font-size: $Promedio-pixeles2;
-    padding-left: $Promedio-pixeles;
+    padding-left: $Promedio-pixeles2;
+    padding-right: $Promedio-pixeles2;
 }
 
 .hPa{
@@ -172,12 +175,15 @@ Nav
     font-weight: bold;
     text-decoration: underline;
     padding-left: $Promedio-pixeles;
+    position: relative;
+    left: 100px;
 }
 
 .pPa{
     font-family: $Fuente1;
     font-size: $Promedio-pixeles2;
-    padding-left: $Promedio-pixeles;
+    padding-left: $Promedio-pixeles2;
+    padding-right: $Promedio-pixeles2;
 }
 
 
@@ -258,13 +264,18 @@ Nav
 .img-thumbnail{
     border-radius: 50%;
     margin-top: 20px;
+    margin-left: 10px;
+    width: 500px;
+    height: 500px;
 }
 
 .redes{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 90px;
     position: relative;
     left:570px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .contenedorCarnes{
@@ -414,17 +425,29 @@ Nav
 
 .divCon{
     background-color: $Color-principal;
-    width: 900px;
-    height: 700px;
+    width: 700px;
+    height: 1300px;
+    margin-left: 10px;
     position: relative;
-    bottom: 400px;
-    left: 500px;
+    top: 20px;
+}
+.divCon2{
+    background-color: $Color-principal;
+    width:700px;
+    height: 700px;
+    font-family: $Fuente1;
+    font-size: 30px;
+    padding-left: 15px;
+    color:$Color-secundario;
+    position: relative;
+    bottom: 100px;
+    left: 800px;
 }
 
 .meat2{
     font-size: 35px;
     position: relative;
-    right: 60px;
+    right: 110px;
     top: 8px
 }
 
