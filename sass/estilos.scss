@@ -166,8 +166,8 @@ Nav
 .pNo{
     font-family: $Fuente1;
     font-size: $Promedio-pixeles2;
-    padding-left: $Promedio-pixeles2;
-    padding-right: $Promedio-pixeles2;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .hPa{
@@ -182,8 +182,8 @@ Nav
 .pPa{
     font-family: $Fuente1;
     font-size: $Promedio-pixeles2;
-    padding-left: $Promedio-pixeles2;
-    padding-right: $Promedio-pixeles2;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -206,8 +206,9 @@ Nav
 
 .div1Home{
     align-items: flex-start;
-    width: 500px;
+    width: 450px;
     height: 400px;
+    margin-left: 40px;
     font-size: $Promedio-pixeles2;
     font-family: $Fuente2;
     padding-left: $Promedio-pixeles;
@@ -218,8 +219,10 @@ Nav
     align-items: center;
     margin-left: $Promedio-pixeles;
     margin-right: $Promedio-pixeles;
-    width: 500px;
+    width: 450px;
     height: 400px;
+    position: relative;
+    left: 27px;
     font-size: $Promedio-pixeles2;
     font-family: $Fuente2;
     padding-left: $Promedio-pixeles;
@@ -228,8 +231,10 @@ Nav
 
 .div3Home{
     align-items: flex-end;
-    width: 500px;
+    width: 450px;
     height: 400px;
+    position: relative;
+    left: 50px;
     font-size: $Promedio-pixeles2;
     font-family: $Fuente2;
     padding-left: $Promedio-pixeles;
@@ -280,19 +285,23 @@ Nav
 
 .contenedorCarnes{
     display:flex;
-    justify-content: center;
-    align-items: center;
     width: 1520px;
-    height: 900px;
+    height: 1100px;
     margin-top: 50px;
 }
 
 .divc1{
     @include divs-carne;
+    align-items: flex-start;
+    margin-left: $Promedio-pixeles2;
 }
 
 .divc2{
     @include divs-carne;
+    align-items: flex-end;
+    margin-left: $Promedio-pixeles2;
+    position: relative;
+    left: 120px
 }
 
 .carnepollo{
@@ -304,6 +313,7 @@ Nav
     font-family: $Fuente1;
     font-weight: bold;
     font-size: 30px;
+    padding-left: 10px;
     position: relative;
     bottom:160px;
     text-decoration: underline;
@@ -313,6 +323,7 @@ Nav
     font-family: $Fuente1;
     font-weight: bold;
     font-size: $Promedio-pixeles2;
+    padding-left: 10px;
     text-decoration: underline;
     position: relative;
     bottom: 340px;
@@ -353,6 +364,7 @@ Nav
     font-family: $Fuente1;
     font-weight: bold;
     font-size: 30px;
+    padding-left: 10px;
     position: relative;
     bottom:160px;
     text-decoration: underline;
@@ -362,6 +374,7 @@ Nav
     font-family: $Fuente1;
     font-weight: bold;
     font-size: $Promedio-pixeles2;
+    padding-left: 10px;
     text-decoration: underline;
     position: relative;
     bottom: 340px;
