@@ -204,7 +204,7 @@ Nav
     margin-top: 50px;
 }
 
-.div1Home{
+#div1Home{
     align-items: flex-start;
     width: 450px;
     height: 400px;
@@ -215,7 +215,7 @@ Nav
     background-color: $Color-noticia;
 }
 
-.div2Home{
+#div2Home{
     align-items: center;
     margin-left: $Promedio-pixeles;
     margin-right: $Promedio-pixeles;
@@ -229,7 +229,7 @@ Nav
     background-color: $Color-noticia;
 }
 
-.div3Home{
+#div3Home{
     align-items: flex-end;
     width: 450px;
     height: 400px;
@@ -242,9 +242,41 @@ Nav
 }
 
 
-.reloj{
+.reloj1{
     width: $Promedio-pixeles;
     height: $Promedio-pixeles;
+}
+
+.reloj2{
+    width: $Promedio-pixeles;
+    height: $Promedio-pixeles;
+    position: relative;
+    right: 200px;
+}
+
+.reloj3{
+    width: $Promedio-pixeles;
+    height: $Promedio-pixeles;
+    position: relative;
+    right: 400px;
+}
+
+.span1H{
+    position:relative;
+    bottom: 27px;
+    left: 25px;
+}
+
+.span2H{
+    position:relative;
+    bottom: 27px;
+    right: 140px;
+}
+
+.span3H{
+    position: relative;
+    bottom: 27px;
+    right: 300px;
 }
 
 
@@ -278,7 +310,7 @@ Nav
     width: 80px;
     height: 90px;
     position: relative;
-    left:570px;
+    left:580px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -290,13 +322,14 @@ Nav
     margin-top: 50px;
 }
 
-.divc1{
+#divc1{
     @include divs-carne;
     align-items: flex-start;
-    margin-left: $Promedio-pixeles2;
+    margin-left: 40px;
+
 }
 
-.divc2{
+#divc2{
     @include divs-carne;
     align-items: flex-end;
     margin-left: $Promedio-pixeles2;
@@ -316,6 +349,7 @@ Nav
     padding-left: 10px;
     position: relative;
     bottom:160px;
+    left:330px;
     text-decoration: underline;
 }
 
@@ -326,14 +360,14 @@ Nav
     padding-left: 10px;
     text-decoration: underline;
     position: relative;
-    bottom: 340px;
+    bottom: 160px;
     left: 330px;
 }
 
 .listapollo{
     font-family: $Fuente1;
     position: relative;
-    bottom: 340px;
+    bottom: 160px;
     left: 330px;
 }
 
@@ -343,14 +377,14 @@ Nav
     font-size: $Promedio-pixeles2;
     text-decoration: underline;
     position: relative;
-    bottom:315px;
+    bottom:160px;
     padding-left: $Promedio-pixeles;
 }
 
 .descPollo{
     font-family: $Fuente1;
     position: relative;
-    bottom: 315px;
+    bottom: 160px;
     font-size: 18px;
     padding-left: $Promedio-pixeles;
 }
@@ -358,6 +392,8 @@ Nav
 .carnecerdo{
     width:325px;
     height:400px;
+    position: relative;
+    right: 324px;
 }
 
 .cc{
@@ -367,6 +403,7 @@ Nav
     padding-left: 10px;
     position: relative;
     bottom:160px;
+    right: 150px;
     text-decoration: underline;
 }
 
@@ -377,15 +414,15 @@ Nav
     padding-left: 10px;
     text-decoration: underline;
     position: relative;
-    bottom: 340px;
-    left: 330px;
+    bottom: 160px;
+    right: 250px;
 }
 
 .listacerdo{
     font-family: $Fuente1;
     position: relative;
-    bottom: 340px;
-    left: 330px;
+    bottom: 160px;
+    right: 170px;
 }
 
 .dc{
@@ -394,14 +431,15 @@ Nav
     font-size: $Promedio-pixeles2;
     text-decoration: underline;
     position: relative;
-    bottom:340px;
+    bottom: 160px;
+    right: 526px; 
     padding-left: $Promedio-pixeles;
 }
 
 .descCerdo{
     font-family: $Fuente1;
     position: relative;
-    bottom:340px;
+    bottom:160px;
     font-size: 18px;
     padding-left: $Promedio-pixeles;
 }
@@ -427,6 +465,9 @@ Nav
     font-family: $Fuente2;
     font-size: 40px;
     color: $Color-secundario;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
 }
 
 .imc{
@@ -436,7 +477,7 @@ Nav
     margin-bottom: 15px;
 } 
 
-.divCon{
+#divCon{
     background-color: $Color-principal;
     width: 700px;
     height: 1300px;
@@ -444,7 +485,7 @@ Nav
     position: relative;
     top: 20px;
 }
-.divCon2{
+#divCon2{
     background-color: $Color-principal;
     width:700px;
     height: 700px;
@@ -460,7 +501,7 @@ Nav
 .meat2{
     font-size: 35px;
     position: relative;
-    right: 110px;
+    right: 190px;
     top: 8px
 }
 
