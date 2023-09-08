@@ -23,12 +23,6 @@ $Fuente2: 'Bebas Neue';
     height: 700px;
 }
 
-@mixin divs-carne-mobile{
-    background-color: $Color-principal;
-    width: 100%;
-    height: auto;
-}
-
 @mixin imagen-parrafo-mobile{
     width: 400px;
     height: 400px; 
@@ -510,7 +504,11 @@ Nav
 
 /*Mobile*/
 @media screen and (max-width: 991px) and (min-width: 320px){
-    
+    body {
+        margin: 0;
+    }
+
+
     html{
         body{
             max-width: 100% !important;
@@ -589,6 +587,8 @@ Nav
     .meat{
         font-size: 30px;
         font-family: sans-serif;
+        position: relative;
+        right: 220px;
     }
 
     .Info{
@@ -615,7 +615,9 @@ Nav
     .hCon{
         font-family: $Fuente2;
         font-weight: bold;
-        float: rigth;
+        float: rigth;;
+        margin-left: 10px;
+        text-decoration: underline;
         color: $Color-secundario;
     }
 
@@ -627,19 +629,30 @@ Nav
     }
 
     .contactosMain{
-        background-image: url("../Activos/Imagenes/fuego.jpg");
+        background-color: rgb(26, 23, 23);
     }
 
     .asado{
         @include imagen-cabecera;
     }
 
-    .divc1{
-        @include divs-carne-mobile;
+    #divc1{
+        width: 80%;
+        height: auto;
+        background-color: #A52525;
+        position: relative;
+        left: 80px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
     
-    .divc2{
-        @include divs-carne-mobile;
+    #divc2{
+        width: 80%;
+        height: auto;
+        background-color: #A52525;
+        position: relative;
+        left: 80px;
+        bottom: 20px;
     }
     
     .carnepollo{
@@ -652,7 +665,8 @@ Nav
         font-weight: bold;
         font-size: 30px;
         position: relative;
-        bottom:160px;
+        bottom:340px;
+        left: 330px;
         text-decoration: underline;
     }
     
@@ -688,6 +702,7 @@ Nav
         position: relative;
         bottom: 315px;
         font-size: 18px;
+        padding-right: 35px;
         padding-left: $Promedio-pixeles;
     }
     
@@ -701,7 +716,8 @@ Nav
         font-weight: bold;
         font-size: 30px;
         position: relative;
-        bottom:160px;
+        bottom:340px;
+        left: 330px;
         text-decoration: underline;
     }
     
@@ -737,6 +753,7 @@ Nav
         position: relative;
         bottom:340px;
         font-size: 18px;
+        padding-right: 35px;
         padding-left: $Promedio-pixeles;
     }
 
@@ -774,7 +791,7 @@ Nav
         font-size: $Promedio-pixeles;
     }
 
-    .div1Home{
+    #div1Home{
         width: 100%;
         height: auto;
         font-size: $Promedio-pixeles2;
@@ -783,7 +800,7 @@ Nav
         background-color: $Color-noticia;
     }
     
-    .div2Home{
+    #div2Home{
         margin-top: $Promedio-pixeles;
         margin-bottom: $Promedio-pixeles;
         width: 100%;
@@ -794,7 +811,7 @@ Nav
         background-color: $Color-noticia;
     }
     
-    .div3Home{
+    #div3Home{
         width: 100%;
         height: auto;
         font-size: $Promedio-pixeles2;
@@ -803,9 +820,37 @@ Nav
         background-color: $Color-noticia;
     }
 
-    .reloj{
+    .reloj1{
         width: $Promedio-pixeles;
         height: $Promedio-pixeles;
+    }
+
+    .reloj2{
+        width: $Promedio-pixeles;
+        height: $Promedio-pixeles;
+    }
+
+    .reloj3{
+        width: $Promedio-pixeles;
+        height: $Promedio-pixeles;
+    }
+
+    .span1H {
+        position: relative;
+        bottom: 27px;
+        left: 25px;
+    }
+
+    .span2H{
+        position: relative;
+        bottom: 27px;
+        left: 25px;
+    }
+
+    .span3H{
+        position: relative;
+        bottom: 27px;
+        left: 25px;
     }
 
     .hNo{
@@ -833,5 +878,57 @@ Nav
         font-size: $Promedio-pixeles2;
         padding-left: $Promedio-pixeles;
     }
-}
+
+    .meat2 {
+        font-size: 20px;
+        position: relative;
+        right: 220px;
+        top: 8px;
+    }
+    
+    .imc {
+        width: 60px;
+        height: 60px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    .spC {
+        font-family: "Bebas Neue";
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+    }
+    .spC2 {
+        font-family: "Bebas Neue";
+        font-size: 20px;
+        color: white;
+        position: relative;
+        bottom: 60px;
+        left: 90px;
+    }
+    
+
+    #divCon {
+        background-color: #A52525;
+        width: 50%;
+        height: auto;
+        margin-left: 10px;
+        position: relative;
+        top: 20px;
+    }
+    #divCon2 {
+        background-color: #A52525;
+        width: 50%;
+        height: auto;
+        font-family: "Carmorant Garamond";
+        font-size: 30px;
+        padding-left: 15px;
+        color: white;
+        position: relative;
+        bottom: 100px;
+        left: 460px;
+    }
+
+} 
 
