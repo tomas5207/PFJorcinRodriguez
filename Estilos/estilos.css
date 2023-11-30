@@ -401,7 +401,7 @@
   }
 }
 /*Mobile*/
-@media screen and (max-width: 991px) and (min-width: 320px) {
+@media only screen and (max-device-width: 960px) {
   body {
     margin: 0;
   }
@@ -432,10 +432,10 @@
     float: right;
   }
   .redes {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     position: relative;
-    left: 250px;
+    left: 100px;
   }
   .spNo {
     font-size: 20px;
@@ -464,10 +464,10 @@
     left: 10px;
   }
   .meat {
-    font-size: 30px;
+    font-size: 20px;
     font-family: sans-serif;
     position: relative;
-    right: 220px;
+    right: 130px;
   }
   .Info {
     font-family: "Bebas Neue";
@@ -488,8 +488,8 @@
   .img-thumbnail {
     border-radius: 50%;
     float: right;
-    width: 450px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
   }
   .hCon {
     font-family: "Bebas Neue";
@@ -513,54 +513,54 @@
     height: 340px;
   }
   #divc1 {
-    width: 80%;
+    width: 90%;
     height: auto;
     background-color: #A52525;
     position: relative;
-    left: 80px;
+    left: 10px;
     margin-top: 20px;
     margin-bottom: 40px;
   }
   #divc2 {
-    width: 80%;
+    width: 90%;
     height: auto;
     background-color: #A52525;
     position: relative;
-    left: 80px;
+    left: 10px;
     bottom: 20px;
   }
   .carnepollo {
-    width: 325px;
+    width: 150px;
     height: 400px;
   }
   .cp {
     font-family: "Carmorant Garamond";
     font-weight: bold;
-    font-size: 30px;
+    font-size: 24px;
     position: relative;
-    bottom: 340px;
-    left: 330px;
+    bottom: 360px;
+    left: 150px;
     text-decoration: underline;
   }
   .ccp {
     font-family: "Carmorant Garamond";
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: underline;
     position: relative;
     bottom: 340px;
-    left: 330px;
+    left: 160px;
   }
   .listapollo {
     font-family: "Carmorant Garamond";
     position: relative;
     bottom: 340px;
-    left: 330px;
+    left: 140px;
   }
   .dp {
     font-family: "Carmorant Garamond";
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: underline;
     position: relative;
     bottom: 315px;
@@ -575,32 +575,32 @@
     padding-left: 20px;
   }
   .carnecerdo {
-    width: 325px;
+    width: 150px;
     height: 400px;
   }
   .cc {
     font-family: "Carmorant Garamond";
     font-weight: bold;
-    font-size: 30px;
+    font-size: 24px;
     position: relative;
-    bottom: 340px;
-    left: 330px;
+    bottom: 360px;
+    left: 150px;
     text-decoration: underline;
   }
   .ccc {
     font-family: "Carmorant Garamond";
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: underline;
     position: relative;
-    bottom: 340px;
-    left: 330px;
+    bottom: 360px;
+    left: 160px;
   }
   .listacerdo {
     font-family: "Carmorant Garamond";
     position: relative;
-    bottom: 340px;
-    left: 330px;
+    bottom: 360px;
+    left: 140px;
   }
   .dc {
     font-family: "Carmorant Garamond";
@@ -723,14 +723,11 @@
     padding-left: 20px;
   }
   .meat2 {
-    font-size: 20px;
-    position: relative;
-    right: 220px;
-    top: 8px;
+    display: none;
   }
   .imc {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-left: 15px;
     margin-bottom: 15px;
   }
@@ -742,7 +739,7 @@
   }
   .spC2 {
     font-family: "Bebas Neue";
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     position: relative;
     bottom: 60px;
@@ -750,23 +747,26 @@
   }
   #divCon {
     background-color: #A52525;
-    width: 50%;
-    height: auto;
+    width: 300px;
+    height: 800px;
     margin-left: 10px;
     position: relative;
     top: 20px;
   }
   #divCon2 {
     background-color: #A52525;
-    width: 50%;
+    width: 250px;
     height: auto;
     font-family: "Carmorant Garamond";
     font-size: 30px;
     padding-left: 15px;
     color: white;
     position: relative;
-    bottom: 100px;
-    left: 460px;
+    bottom: 0px;
+    left: 40px;
+  }
+  #divcon2 p {
+    font-size: 10px;
   }
 }
 
