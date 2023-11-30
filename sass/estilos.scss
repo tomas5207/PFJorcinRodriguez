@@ -1,936 +1,774 @@
-$Color-principal: #A52525;
-$Color-secundario: #ffff;
-$Color-noticia: #D9D9D9;
-$Promedio-pixeles: 20px;
-$Promedio-pixeles2: 25px;
-$Fuente1: 'Carmorant Garamond';
-$Fuente2: 'Bebas Neue';
-
-@mixin imagen-parrafo{
-    width: 800px;
-    height: 400px; 
-    float: right;
+@font-face {
+  font-family: "Carmorant Garamond";
+  src: url("../activos/fuentes/Cormorant_Garamond/CormorantGaramond-MediumItalic.ttf");
 }
-
-@mixin imagen-cabecera{
-    width: 100%;
-    height: 340px;
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../activos/fuentes/Bebas_Neue/BebasNeue-Regular.ttf");
 }
-
-@mixin divs-carne{
-    background-color: $Color-principal;
-    width: 650px;
-    height: 700px;
-}
-
-@mixin imagen-parrafo-mobile{
-    width: 400px;
-    height: 400px; 
-    float: right;
-}
-
-@font-face{
-    font-family: 'Carmorant Garamond';
-    src:url('../activos/fuentes/Cormorant_Garamond/CormorantGaramond-MediumItalic.ttf')
-}
-
-@font-face{
-    font-family: 'Bebas Neue';
-    src: url('../activos/fuentes/Bebas_Neue/BebasNeue-Regular.ttf')
-}
-
 /*Desktop*/
-@media screen and (max-width:1541px) and (min-width: 992px){
-body{
+@media screen and (max-width: 1541px) and (min-width: 992px) {
+  body {
     margin: 0;
-}
-
-html{
-    body{
-        max-width: 100% !important;
-        overflow-x: hidden !important;
-    }
-}
-
-
-header{
-    background: $Color-principal;
+  }
+  html body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  header {
+    background: #A52525;
     width: 100%;
     clear: both;
     display: table;
-    color: $Color-secundario;
-}
-
-a{
+    color: white;
+  }
+  a {
     padding-right: 10px;
-    font-size: $Promedio-pixeles2;
+    font-size: 25px;
     text-decoration: none;
-    color:$Color-secundario;
-}
-
-
-footer{
-    background: $Color-principal;
-}
-
-li{
-    font-size: $Promedio-pixeles;
-}
-
-Nav
-{
-    float: right
-}
-
-
-.textoH{
-    padding-left: $Promedio-pixeles;
-}
-
-.textoCa{
-    padding-left: $Promedio-pixeles;
-}
-
-.catalogo{
-    font-family: $Fuente1;
+    color: white;
+  }
+  footer {
+    background: #A52525;
+  }
+  li {
+    font-size: 20px;
+  }
+  Nav {
+    float: right;
+  }
+  .textoH {
+    padding-left: 20px;
+  }
+  .textoCa {
+    padding-left: 20px;
+  }
+  .catalogo {
+    font-family: "Carmorant Garamond";
     font-weight: bold;
-    color: $Color-secundario;
-}
-
-.hp{
-    font-family: $Fuente1;
+    color: white;
+  }
+  .hp {
+    font-family: "Carmorant Garamond";
     font-weight: bold;
-}
-
-.principal{
-    font-family: $Fuente1;
-    font-size: $Promedio-pixeles;
-}
-
-.lead{
-    font-family:$Fuente1;
-    font-size: $Promedio-pixeles;
-    color: $Color-secundario;
-}
-
-.nav-link{
-    color: $Color-secundario;
-}
-
-
-.hCon{
-    font-family: $Fuente2;
+  }
+  .principal {
+    font-family: "Carmorant Garamond";
+    font-size: 20px;
+  }
+  .lead {
+    font-family: "Carmorant Garamond";
+    font-size: 20px;
+    color: white;
+  }
+  .nav-link {
+    color: white;
+  }
+  .hCon {
+    font-family: "Bebas Neue";
     font-weight: bold;
     text-decoration: underline;
     font-size: 60px;
     margin-left: 10px;
-    color: $Color-secundario;
-}
-
-.hNo{
-    font-family: $Fuente1;
+    color: white;
+  }
+  .hNo {
+    font-family: "Carmorant Garamond";
     font-weight: bold;
     text-decoration: underline;
-    padding-left: $Promedio-pixeles;
+    padding-left: 20px;
     position: relative;
     left: 100px;
-}
-
-.carneNo{
-    @include imagen-parrafo;
-}
-
-.carnePagina{
-    @include imagen-parrafo;
-}
-
-.Info{
-    font-family: $Fuente2;
-    width:1540px;
-    height:50px;
+  }
+  .carneNo {
+    width: 800px;
+    height: 400px;
+    float: right;
+  }
+  .carnePagina {
+    width: 800px;
+    height: 400px;
+    float: right;
+  }
+  .Info {
+    font-family: "Bebas Neue";
+    width: 1540px;
+    height: 50px;
     background-color: #a5a5a5;
-}
-
-.spNo{
+  }
+  .spNo {
     font-size: 30px;
     position: relative;
     left: 300px;
-}
-
-.pNo{
-    font-family: $Fuente1;
-    font-size: $Promedio-pixeles2;
+  }
+  .pNo {
+    font-family: "Carmorant Garamond";
+    font-size: 25px;
     padding-left: 30px;
     padding-right: 30px;
-}
-
-.hPa{
-    font-family: $Fuente1;
+  }
+  .hPa {
+    font-family: "Carmorant Garamond";
     font-weight: bold;
     text-decoration: underline;
-    padding-left: $Promedio-pixeles;
+    padding-left: 20px;
     position: relative;
     left: 100px;
-}
-
-.pPa{
-    font-family: $Fuente1;
-    font-size: $Promedio-pixeles2;
+  }
+  .pPa {
+    font-family: "Carmorant Garamond";
+    font-size: 25px;
     padding-left: 30px;
     padding-right: 30px;
-}
-
-
-.imagen-principal{
-    @include imagen-cabecera;
-}
-
-.asado{
-    @include imagen-cabecera;
-}
-
-
-
-.contenedorHome{
-    display:flex;
+  }
+  .imagen-principal {
+    width: 100%;
+    height: 340px;
+  }
+  .asado {
+    width: 100%;
+    height: 340px;
+  }
+  .contenedorHome {
+    display: flex;
     width: 1500px;
     height: 800px;
     margin-top: 50px;
-}
-
-#div1Home{
+  }
+  #div1Home {
     align-items: flex-start;
     width: 450px;
     height: 400px;
     margin-left: 40px;
-    font-size: $Promedio-pixeles2;
-    font-family: $Fuente2;
-    padding-left: $Promedio-pixeles;
-    background-color: $Color-noticia;
-}
-
-#div2Home{
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    padding-left: 20px;
+    background-color: #D9D9D9;
+  }
+  #div2Home {
     align-items: center;
-    margin-left: $Promedio-pixeles;
-    margin-right: $Promedio-pixeles;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 450px;
     height: 400px;
     position: relative;
     left: 27px;
-    font-size: $Promedio-pixeles2;
-    font-family: $Fuente2;
-    padding-left: $Promedio-pixeles;
-    background-color: $Color-noticia;
-}
-
-#div3Home{
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    padding-left: 20px;
+    background-color: #D9D9D9;
+  }
+  #div3Home {
     align-items: flex-end;
     width: 450px;
     height: 400px;
     position: relative;
     left: 50px;
-    font-size: $Promedio-pixeles2;
-    font-family: $Fuente2;
-    padding-left: $Promedio-pixeles;
-    background-color: $Color-noticia;
-}
-
-
-.reloj1{
-    width: $Promedio-pixeles;
-    height: $Promedio-pixeles;
-}
-
-.reloj2{
-    width: $Promedio-pixeles;
-    height: $Promedio-pixeles;
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    padding-left: 20px;
+    background-color: #D9D9D9;
+  }
+  .reloj1 {
+    width: 20px;
+    height: 20px;
+  }
+  .reloj2 {
+    width: 20px;
+    height: 20px;
     position: relative;
     right: 200px;
-}
-
-.reloj3{
-    width: $Promedio-pixeles;
-    height: $Promedio-pixeles;
+  }
+  .reloj3 {
+    width: 20px;
+    height: 20px;
     position: relative;
     right: 400px;
-}
-
-.span1H{
-    position:relative;
+  }
+  .span1H {
+    position: relative;
     bottom: 27px;
     left: 25px;
-}
-
-.span2H{
-    position:relative;
+  }
+  .span2H {
+    position: relative;
     bottom: 27px;
     right: 140px;
-}
-
-.span3H{
+  }
+  .span3H {
     position: relative;
     bottom: 27px;
     right: 300px;
-}
-
-
-.usuario{
+  }
+  .usuario {
     width: 50px;
     height: 50px;
-    left:10px;
-}
-
-.meat{
+    left: 10px;
+  }
+  .meat {
     font-size: 44px;
     font-family: sans-serif;
     position: relative;
     right: 700px;
-}
-
-.es{
-    font-size: $Promedio-pixeles2;
-    font-family:monospace;  
-}
-
-.img-thumbnail{
+  }
+  .es {
+    font-size: 25px;
+    font-family: monospace;
+  }
+  .img-thumbnail {
     border-radius: 50%;
     margin-top: 20px;
     margin-left: 10px;
     width: 500px;
     height: 500px;
-}
-
-.redes{
+  }
+  .redes {
     width: 80px;
     height: 90px;
     position: relative;
-    left:580px;
+    left: 580px;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-.contenedorCarnes{
-    display:flex;
+  }
+  .contenedorCarnes {
+    display: flex;
     width: 1520px;
     height: 1100px;
     margin-top: 50px;
-}
-
-#divc1{
-    @include divs-carne;
+  }
+  #divc1 {
+    background-color: #A52525;
+    width: 650px;
+    height: 700px;
     align-items: flex-start;
     margin-left: 40px;
-
-}
-
-#divc2{
-    @include divs-carne;
+  }
+  #divc2 {
+    background-color: #A52525;
+    width: 650px;
+    height: 700px;
     align-items: flex-end;
-    margin-left: $Promedio-pixeles2;
+    margin-left: 25px;
     position: relative;
-    left: 120px
-}
-
-.carnepollo{
-    width:325px;
-    height:400px;
-}
-
-.cp{
-    font-family: $Fuente1;
+    left: 120px;
+  }
+  .carnepollo {
+    width: 325px;
+    height: 400px;
+  }
+  .cp {
+    font-family: "Carmorant Garamond";
     font-weight: bold;
     font-size: 30px;
     padding-left: 10px;
     position: relative;
-    bottom:160px;
-    left:330px;
+    bottom: 160px;
+    left: 330px;
     text-decoration: underline;
-}
-
-.ccp{
-    font-family: $Fuente1;
+  }
+  .ccp {
+    font-family: "Carmorant Garamond";
     font-weight: bold;
-    font-size: $Promedio-pixeles2;
+    font-size: 25px;
     padding-left: 10px;
     text-decoration: underline;
     position: relative;
     bottom: 160px;
     left: 330px;
-}
-
-.listapollo{
-    font-family: $Fuente1;
+  }
+  .listapollo {
+    font-family: "Carmorant Garamond";
     position: relative;
     bottom: 160px;
     left: 330px;
-}
-
-.dp{
-    font-family: $Fuente1;
+  }
+  .dp {
+    font-family: "Carmorant Garamond";
     font-weight: bold;
-    font-size: $Promedio-pixeles2;
+    font-size: 25px;
     text-decoration: underline;
     position: relative;
-    bottom:160px;
-    padding-left: $Promedio-pixeles;
-}
-
-.descPollo{
-    font-family: $Fuente1;
+    bottom: 160px;
+    padding-left: 20px;
+  }
+  .descPollo {
+    font-family: "Carmorant Garamond";
     position: relative;
     bottom: 160px;
     font-size: 18px;
-    padding-left: $Promedio-pixeles;
-}
-
-.carnecerdo{
-    width:325px;
-    height:400px;
+    padding-left: 20px;
+  }
+  .carnecerdo {
+    width: 325px;
+    height: 400px;
     position: relative;
     right: 324px;
-}
-
-.cc{
-    font-family: $Fuente1;
+  }
+  .cc {
+    font-family: "Carmorant Garamond";
     font-weight: bold;
     font-size: 30px;
     padding-left: 10px;
     position: relative;
-    bottom:160px;
+    bottom: 160px;
     right: 150px;
     text-decoration: underline;
-}
-
-.ccc{
-    font-family: $Fuente1;
+  }
+  .ccc {
+    font-family: "Carmorant Garamond";
     font-weight: bold;
-    font-size: $Promedio-pixeles2;
+    font-size: 25px;
     padding-left: 10px;
     text-decoration: underline;
     position: relative;
     bottom: 160px;
     right: 250px;
-}
-
-.listacerdo{
-    font-family: $Fuente1;
+  }
+  .listacerdo {
+    font-family: "Carmorant Garamond";
     position: relative;
     bottom: 160px;
     right: 170px;
-}
-
-.dc{
-    font-family: $Fuente1;
+  }
+  .dc {
+    font-family: "Carmorant Garamond";
     font-weight: bold;
-    font-size: $Promedio-pixeles2;
+    font-size: 25px;
     text-decoration: underline;
     position: relative;
     bottom: 160px;
-    right: 526px; 
-    padding-left: $Promedio-pixeles;
-}
-
-.descCerdo{
-    font-family: $Fuente1;
+    right: 526px;
+    padding-left: 20px;
+  }
+  .descCerdo {
+    font-family: "Carmorant Garamond";
     position: relative;
-    bottom:160px;
+    bottom: 160px;
     font-size: 18px;
-    padding-left: $Promedio-pixeles;
-}
-
-
-
-.contactosMain{
+    padding-left: 20px;
+  }
+  .contactosMain {
     background-color: rgb(26, 23, 23);
-}
-
-.carnesMain{
+  }
+  .carnesMain {
     background-color: rgb(26, 23, 23);
-}
-
-.spC{
-    font-family: $Fuente2;
+  }
+  .spC {
+    font-family: "Bebas Neue";
     font-size: 40px;
-    color: $Color-secundario;
+    color: white;
     margin-left: 10px;
-}
-
-.spC2{
-    font-family: $Fuente2;
+  }
+  .spC2 {
+    font-family: "Bebas Neue";
     font-size: 40px;
-    color: $Color-secundario;
+    color: white;
     position: relative;
     bottom: 80px;
     left: 100px;
-}
-
-.imc{
+  }
+  .imc {
     width: 80px;
     height: 80px;
     margin-left: 15px;
     margin-bottom: 15px;
-} 
-
-#divCon{
-    background-color: $Color-principal;
+  }
+  #divCon {
+    background-color: #A52525;
     width: 700px;
     height: 1300px;
     margin-left: 10px;
     position: relative;
     top: 20px;
-}
-#divCon2{
-    background-color: $Color-principal;
-    width:700px;
+  }
+  #divCon2 {
+    background-color: #A52525;
+    width: 700px;
     height: 700px;
-    font-family: $Fuente1;
+    font-family: "Carmorant Garamond";
     font-size: 30px;
     padding-left: 15px;
-    color:$Color-secundario;
+    color: white;
     position: relative;
     bottom: 100px;
     left: 800px;
-}
-
-.meat2{
+  }
+  .meat2 {
     font-size: 35px;
     position: relative;
     right: 190px;
-    top: 8px
+    top: 8px;
+  }
 }
-
-}
-
-
 /*Mobile*/
 @media only screen and (max-device-width: 960px) {
-    body {
-        margin: 0;
-    }
+  body {
+    margin: 0;
+  }
+  html body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  header {
+    background: #A52525;
+    width: 100%;
+    clear: both;
+    display: table;
+    color: white;
+  }
+  a {
+    padding-right: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+  }
+  footer {
+    background: #A52525;
+  }
+  li {
+    font-size: 20px;
+  }
+  Nav {
+    float: right;
+  }
+  .redes {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 100px;
+  }
+  .spNo {
+    font-size: 20px;
+    color: #000000;
+    position: relative;
+    left: 0px;
+  }
+  .hCon {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    top: 10px;
+    color: white;
+  }
+  .spC {
+    font-size: 20px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    top: 5px;
+    color: white;
+  }
+  .usuario {
+    width: 50px;
+    height: 50px;
+    left: 10px;
+  }
+  .meat {
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    right: 130px;
+  }
+  .Info {
+    font-family: "Bebas Neue";
+    width: 100%;
+    height: auto;
+    background-color: #a5a5a5;
+  }
+  .carnePagina {
+    width: 400px;
+    height: 400px;
+    float: right;
+  }
+  .carneNo {
+    width: 400px;
+    height: 400px;
+    float: right;
+  }
+  .img-thumbnail {
+    border-radius: 50%;
+    float: right;
+    width: 350px;
+    height: 300px;
+  }
+  .hCon {
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    float: rigth;
+    margin-left: 10px;
+    text-decoration: underline;
+    color: white;
+  }
+  .spC {
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    float: rigth;
+    color: white;
+  }
+  .contactosMain {
+    background-color: rgb(26, 23, 23);
+  }
+  .asado {
+    width: 100%;
+    height: 340px;
+  }
+  #divc1 {
+    width: 90%;
+    height: auto;
+    background-color: #A52525;
+    position: relative;
+    left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  #divc2 {
+    width: 90%;
+    height: auto;
+    background-color: #A52525;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+  }
+  .carnepollo {
+    width: 150px;
+    height: 400px;
+  }
+  .cp {
+    font-family: "Carmorant Garamond";
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    bottom: 360px;
+    left: 150px;
+    text-decoration: underline;
+  }
+  .ccp {
+    font-family: "Carmorant Garamond";
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    position: relative;
+    bottom: 340px;
+    left: 160px;
+  }
+  .listapollo {
+    font-family: "Carmorant Garamond";
+    position: relative;
+    bottom: 340px;
+    left: 140px;
+  }
+  .dp {
+    font-family: "Carmorant Garamond";
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    position: relative;
+    bottom: 315px;
+    padding-left: 20px;
+  }
+  .descPollo {
+    font-family: "Carmorant Garamond";
+    position: relative;
+    bottom: 315px;
+    font-size: 18px;
+    padding-right: 35px;
+    padding-left: 20px;
+  }
+  .carnecerdo {
+    width: 150px;
+    height: 400px;
+  }
+  .cc {
+    font-family: "Carmorant Garamond";
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    bottom: 360px;
+    left: 150px;
+    text-decoration: underline;
+  }
+  .ccc {
+    font-family: "Carmorant Garamond";
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    position: relative;
+    bottom: 360px;
+    left: 160px;
+  }
+  .listacerdo {
+    font-family: "Carmorant Garamond";
+    position: relative;
+    bottom: 360px;
+    left: 140px;
+  }
+  .dc {
+    font-family: "Carmorant Garamond";
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+    position: relative;
+    bottom: 340px;
+    padding-left: 20px;
+  }
+  .descCerdo {
+    font-family: "Carmorant Garamond";
+    position: relative;
+    bottom: 340px;
+    font-size: 18px;
+    padding-right: 35px;
+    padding-left: 20px;
+  }
+  .carnesMain {
+    background-color: rgb(26, 23, 23);
+  }
+  .nav-link {
+    color: white;
+  }
+  .catalogo {
+    font-family: "Carmorant Garamond";
+    font-weight: bold;
+    color: white;
+  }
+  .lead {
+    font-family: "Carmorant Garamond";
+    font-size: 20px;
+    color: white;
+  }
+  .imagen-principal {
+    width: 100%;
+    height: 340px;
+  }
+  .hp {
+    font-family: "Carmorant Garamond";
+    font-weight: bold;
+  }
+  .principal {
+    font-family: "Carmorant Garamond";
+    font-size: 20px;
+  }
+  #div1Home {
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    padding-left: 20px;
+    background-color: #D9D9D9;
+  }
+  #div2Home {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    padding-left: 20px;
+    background-color: #D9D9D9;
+  }
+  #div3Home {
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    padding-left: 20px;
+    background-color: #D9D9D9;
+  }
+  .reloj1 {
+    width: 20px;
+    height: 20px;
+  }
+  .reloj2 {
+    width: 20px;
+    height: 20px;
+  }
+  .reloj3 {
+    width: 20px;
+    height: 20px;
+  }
+  .span1H {
+    position: relative;
+    bottom: 27px;
+    left: 25px;
+  }
+  .span2H {
+    position: relative;
+    bottom: 27px;
+    left: 25px;
+  }
+  .span3H {
+    position: relative;
+    bottom: 27px;
+    left: 25px;
+  }
+  .hNo {
+    font-family: "Carmorant Garamond";
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 20px;
+  }
+  .pNo {
+    font-family: "Carmorant Garamond";
+    font-size: 25px;
+    padding-left: 20px;
+  }
+  .hPa {
+    font-family: "Carmorant Garamond";
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 20px;
+  }
+  .pPa {
+    font-family: "Carmorant Garamond";
+    font-size: 25px;
+    padding-left: 20px;
+  }
+  .meat2 {
+    display: none;
+  }
+  .imc {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .spC {
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+  }
+  .spC2 {
+    font-family: "Bebas Neue";
+    font-size: 15px;
+    color: white;
+    position: relative;
+    bottom: 60px;
+    left: 90px;
+  }
+  #divCon {
+    background-color: #A52525;
+    width: 300px;
+    height: 800px;
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+  }
+  #divCon2 {
+    background-color: #A52525;
+    width: 300px;
+    height: auto;
+    font-family: "Carmorant Garamond";
+    font-size: 30px;
+    padding-left: 15px;
+    color: white;
+    position: relative;
+    bottom: 0px;
+    left: 40px;
+  }
+  #divcon2 p {
+    font-size: 10px;
+  }
+}
 
 
-    html{
-        body{
-            max-width: 100% !important;
-            overflow-x: hidden !important;
-        }
-    }
-
-    header{
-        background: $Color-principal;
-        width: 100%;
-        clear: both;
-        display: table;
-        color: $Color-secundario;
-    }
-    
-    a{
-        padding-right: 10px;
-        font-size: $Promedio-pixeles2;
-        text-decoration: none;
-        color:$Color-secundario;
-    }
-    
-    
-    footer{
-        background: $Color-principal;
-    }
-    
-    li{
-        font-size: $Promedio-pixeles;
-    }
-    
-    Nav
-    {
-        float: right
-    }
-
-
-    .redes{
-        width: 30px;
-        height: 30px;
-        position: relative;
-        left: 100px;
-    }
-
-    .spNo{
-        font-size: 20px;
-        color: #000000;
-        position: relative;
-        left:0px;
-    }
-
-    
-    .hCon{
-        position:relative;
-        left:0px;
-        bottom:0px;
-        top: 10px;
-        color: $Color-secundario;
-    }
-
-    .spC{
-        font-size: $Promedio-pixeles;
-        position:relative;
-        left:0px;
-        bottom:0px;
-        top: 5px;
-        color: $Color-secundario;
-    }
-
-    .usuario{
-        width: 50px;
-        height: 50px;
-        left:10px;
-    }
-
-    .meat{
-        font-size: 20px;
-        font-family: sans-serif;
-        position: relative;
-        right: 130px;
-    }
-
-    .Info{
-        font-family: $Fuente2;
-        width:100%;
-        height:auto;
-        background-color: #a5a5a5;
-    }
-    
-    .carnePagina{
-        @include imagen-parrafo-mobile;
-    }
-
-    .carneNo{
-        @include imagen-parrafo-mobile;
-    }
-
-    .img-thumbnail{
-        border-radius: 50%;
-        float: right;
-        width: 350px;
-        height:300px;
-    }
-    .hCon{
-        font-family: $Fuente2;
-        font-weight: bold;
-        float: rigth;;
-        margin-left: 10px;
-        text-decoration: underline;
-        color: $Color-secundario;
-    }
-
-    .spC{
-        font-family: $Fuente2;
-        font-size: $Promedio-pixeles;
-        float: rigth;
-        color: $Color-secundario;
-    }
-
-    .contactosMain{
-        background-color: rgb(26, 23, 23);
-    }
-
-    .asado{
-        @include imagen-cabecera;
-    }
-
-    #divc1{
-        width: 90%;
-        height: auto;
-        background-color: #A52525;
-        position: relative;
-        left: 10px;
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
-    
-    #divc2{
-        width: 90%;
-        height: auto;
-        background-color: #A52525;
-        position: relative;
-        left: 10px;
-        bottom: 20px;
-    }
-    
-    .carnepollo{
-        width:150px;
-        height:400px;
-    }
-    
-    .cp{
-        font-family: $Fuente1;
-        font-weight: bold;
-        font-size: 24px;
-        position: relative;
-        bottom: 360px;
-        left: 150px;
-        text-decoration: underline;
-    }
-    
-    .ccp{
-        font-family: $Fuente1;
-        font-weight: bold;
-        font-size: 22px;
-        text-decoration: underline;
-        position: relative;
-        bottom: 340px;
-        left: 160px;
-    }
-    
-    .listapollo{
-        font-family: $Fuente1;
-        position: relative;
-        bottom: 340px;
-        left: 140px;
-    }
-    
-    .dp{
-        font-family: $Fuente1;
-        font-weight: bold;
-        font-size: 22px;
-        text-decoration: underline;
-        position: relative;
-        bottom:315px;
-        padding-left: $Promedio-pixeles;
-    }
-    
-    .descPollo{
-        font-family: $Fuente1;
-        position: relative;
-        bottom: 315px;
-        font-size: 18px;
-        padding-right: 35px;
-        padding-left: $Promedio-pixeles;
-    }
-    
-    .carnecerdo{
-        width:150px;
-        height:400px;
-    }
-    
-    .cc{
-        font-family: $Fuente1;
-        font-weight: bold;
-        font-size: 24px;
-        position: relative;
-        bottom: 360px;
-        left: 150px;
-        text-decoration: underline;
-    }
-    
-    .ccc{
-        font-family: $Fuente1;
-        font-weight: bold;
-        font-size: 22px;
-        text-decoration: underline;
-        position: relative;
-        bottom: 360px;
-        left: 160px;
-    }
-    
-    .listacerdo{
-        font-family: $Fuente1;
-        position: relative;
-        bottom: 360px;
-        left: 140px;
-    }
-    
-    
-    .dc{
-        font-family: $Fuente1;
-        font-weight: bold;
-        font-size: $Promedio-pixeles2;
-        text-decoration: underline;
-        position: relative;
-        bottom:340px;
-        padding-left: $Promedio-pixeles;
-    }
-    
-    .descCerdo{
-        font-family: $Fuente1;
-        position: relative;
-        bottom:340px;
-        font-size: 18px;
-        padding-right: 35px;
-        padding-left: $Promedio-pixeles;
-    }
-
-    .carnesMain{
-        background-color: rgb(26, 23, 23);
-    }
-
-    .nav-link{
-        color: $Color-secundario;
-    }
-
-    .catalogo{
-        font-family: $Fuente1;
-        font-weight: bold;
-        color: $Color-secundario;
-    }
-
-    .lead{
-        font-family:$Fuente1;
-        font-size: $Promedio-pixeles;
-        color: $Color-secundario;
-    }
-
-    .imagen-principal{
-        @include imagen-cabecera;
-    }
-
-    .hp{
-        font-family: $Fuente1;
-        font-weight: bold;
-    }
-    
-    .principal{
-        font-family: $Fuente1;
-        font-size: $Promedio-pixeles;
-    }
-
-    #div1Home{
-        width: 100%;
-        height: auto;
-        font-size: $Promedio-pixeles2;
-        font-family: $Fuente2;
-        padding-left: $Promedio-pixeles;
-        background-color: $Color-noticia;
-    }
-    
-    #div2Home{
-        margin-top: $Promedio-pixeles;
-        margin-bottom: $Promedio-pixeles;
-        width: 100%;
-        height: auto;
-        font-size: $Promedio-pixeles2;
-        font-family: $Fuente2;
-        padding-left: $Promedio-pixeles;
-        background-color: $Color-noticia;
-    }
-    
-    #div3Home{
-        width: 100%;
-        height: auto;
-        font-size: $Promedio-pixeles2;
-        font-family: $Fuente2;
-        padding-left: $Promedio-pixeles;
-        background-color: $Color-noticia;
-    }
-
-    .reloj1{
-        width: $Promedio-pixeles;
-        height: $Promedio-pixeles;
-    }
-
-    .reloj2{
-        width: $Promedio-pixeles;
-        height: $Promedio-pixeles;
-    }
-
-    .reloj3{
-        width: $Promedio-pixeles;
-        height: $Promedio-pixeles;
-    }
-
-    .span1H {
-        position: relative;
-        bottom: 27px;
-        left: 25px;
-    }
-
-    .span2H{
-        position: relative;
-        bottom: 27px;
-        left: 25px;
-    }
-
-    .span3H{
-        position: relative;
-        bottom: 27px;
-        left: 25px;
-    }
-
-    .hNo{
-        font-family: $Fuente1;
-        font-weight: bold;
-        text-decoration: underline;
-        padding-left: $Promedio-pixeles;
-    }
-
-    .pNo{
-        font-family: $Fuente1;
-        font-size: $Promedio-pixeles2;
-        padding-left: $Promedio-pixeles;
-    }
-
-    .hPa{
-        font-family: $Fuente1;
-        font-weight: bold;
-        text-decoration: underline;
-        padding-left: $Promedio-pixeles;
-    }
-    
-    .pPa{
-        font-family: $Fuente1;
-        font-size: $Promedio-pixeles2;
-        padding-left: $Promedio-pixeles;
-    }
-
-    .meat2 {
-        display: none;
-    }
-    
-    .imc {
-        width: 50px;
-        height: 50px;
-        margin-left: 15px;
-        margin-bottom: 15px;
-    }
-
-    .spC {
-        font-family: "Bebas Neue";
-        font-size: 20px;
-        color: white;
-        margin-left: 10px;
-    }
-    .spC2 {
-        font-family: "Bebas Neue";
-        font-size: 15px;
-        color: white;
-        position: relative;
-        bottom: 60px;
-        left: 90px;
-    }
-    
-
-    #divCon {
-        background-color: #A52525;
-        width: 300px;
-        height: 800px;
-        margin-left: 10px;
-        position: relative;
-        top: 20px;
-    }
-    #divCon2 {
-        background-color: #A52525;
-        width: 250px;
-        height: auto;
-        font-family: "Carmorant Garamond";
-        font-size: 30px;
-        padding-left: 15px;
-        color: white;
-        position: relative;
-        bottom: 0px;
-        left: 40px;
-    }
-
-    #divcon2 p{
-        font-size: 10px;
-    }
-
-} 
-
+/*# sourceMappingURL=estilos.scss.map */
